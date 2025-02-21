@@ -1,5 +1,5 @@
 import comp from "D:/mydesktop/bestsoft/bs-antd/bs-documents/vuepress-starter/docs/.vuepress/.temp/pages/components/form/index.html.vue"
-const data = JSON.parse("{\"path\":\"/components/form/\",\"title\":\"\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[{\"level\":3,\"title\":\"弹框表单\",\"slug\":\"弹框表单\",\"link\":\"#弹框表单\",\"children\":[]},{\"level\":3,\"title\":\"API\",\"slug\":\"api\",\"link\":\"#api\",\"children\":[]},{\"level\":3,\"title\":\"事件\",\"slug\":\"事件\",\"link\":\"#事件\",\"children\":[]}],\"git\":{},\"filePathRelative\":\"components/form/index.md\"}")
+const data = JSON.parse("{\"path\":\"/components/form/\",\"title\":\"\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[{\"level\":3,\"title\":\"弹框表单\",\"slug\":\"弹框表单\",\"link\":\"#弹框表单\",\"children\":[]},{\"level\":3,\"title\":\"API\",\"slug\":\"api\",\"link\":\"#api\",\"children\":[]},{\"level\":3,\"title\":\"事件\",\"slug\":\"事件\",\"link\":\"#事件\",\"children\":[]}],\"git\":{\"updatedTime\":1740099656000,\"contributors\":[{\"name\":\"崔锦\",\"username\":\"崔锦\",\"email\":\"981744753@qq.com\",\"commits\":1,\"url\":\"https://github.com/崔锦\"}]},\"filePathRelative\":\"components/form/index.md\"}")
 export { comp, data }
 
 if (import.meta.webpackHot) {

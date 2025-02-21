@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { Button,Space } from "ant-design-vue";
+import { SearchOutlined } from '@ant-design/icons-vue';
 import "ant-design-vue/dist/antd.css";
 const props = withDefaults(defineProps<{
   demoType?:any
@@ -23,6 +24,23 @@ const props = withDefaults(defineProps<{
       <Button type="dashed" loading>Dashed</Button>
       <Button danger loading>Danger</Button>
       <Button type="link" loading>Link</Button>
+    </Space>
+    <Space v-else-if="demoType===3">
+      <a-button type="primary" shape="circle">
+        <template #icon><SearchOutlined /></template>
+      </a-button>
+      <a-button type="primary" shape="circle">A</a-button>
+      <a-button type="primary">
+        <template #icon><SearchOutlined /></template>
+        Search
+      </a-button>
+      <a-button shape="circle">
+        <template #icon><SearchOutlined /></template>
+      </a-button>
+      <a-button>
+        <template #icon><SearchOutlined /></template>
+        Search
+      </a-button>
     </Space>
   </div>
 

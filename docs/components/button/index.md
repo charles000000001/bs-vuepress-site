@@ -30,6 +30,40 @@
 ```
 </details>
 
+### 图标按钮
+<bs-button type="primary" :demoType='3'></bs-button>
+<details open>
+<summary><a>查看代码</a></summary>
+
+```vue
+
+<bs-space>
+<bs-button type="primary" shape="circle">
+  <template #icon>
+    <SearchOutlined/>
+  </template>
+</bs-button>
+<bs-button type="primary" shape="circle">A</bs-button>
+<bs-button type="primary">
+  <template #icon>
+    <SearchOutlined/>
+  </template>
+  Search
+</bs-button>
+<bs-button shape="circle">
+  <template #icon>
+    <SearchOutlined/>
+  </template>
+</bs-button>
+<bs-button>
+  <template #icon>
+    <SearchOutlined/>
+  </template>
+  Search
+</bs-button>
+</bs-space>
+```
+</details>
 
 ### API
 通过设置 Button 的属性来产生不同的按钮样式，推荐顺序为：type -> shape -> size -> loading -> disabled。
@@ -52,7 +86,6 @@
 | htmlType | 设置 button 原生的 type 值，可选值请参考 HTML 标准 | string | button |
 | onClick | 点击按钮时的回调 | (event: MouseEvent) => void | - |
 | autoInsertSpace | 是否在按钮的图标之后自动插入空格 | boolean | true |
-| demoType | 设置按钮的类型，可选值为 1、2、3、4、5 | number | 1 |
 | demoSize | 设置按钮的大小，可选值为 small、large | string | - |
 | demoShape | 设置按钮的形状，可选值为 circle | string | - |
 | demoLoading | 设置按钮的载入状态 | boolean | false |
