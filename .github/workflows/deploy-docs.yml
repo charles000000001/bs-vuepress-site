@@ -20,10 +20,6 @@ jobs:
           fetch-depth: 0
           # 如果你文档需要 Git 子模块，取消注释下一行
           # submodules: true
-      - name: Use Secret
-        env:
-          MY_SECRET: ${{ secrets.DEPLOY_TOKEN }}
-          run: echo "The secret is $MY_SECRET"
       - name: 安装 pnpm
         uses: pnpm/action-setup@v2
         with:
