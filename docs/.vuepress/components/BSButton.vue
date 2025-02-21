@@ -6,7 +6,6 @@ const props = withDefaults(defineProps<{
 }>(), {
   demoType: 1
 });
-
 </script>
 
 <template>
